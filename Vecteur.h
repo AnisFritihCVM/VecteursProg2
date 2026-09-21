@@ -1,5 +1,5 @@
-#pragma once
-using namespace std;
+#ifndef vecteur_h
+#define vecteur_h
 
 using TypeVecteur = int;
 
@@ -23,3 +23,5 @@ Vecteur copierVecteur(const Vecteur& source);
 void afficherVecteur(const Vecteur& v);
 
 void reserver(Vecteur& v, size_t nouvelleCapacite);
+
+#endif
